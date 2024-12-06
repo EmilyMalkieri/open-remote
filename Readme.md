@@ -1,6 +1,5 @@
 # open-remote
 
-
 Simple tool to open your repo's remote in your default browser.
 
 Works for both `https://` and `git@` remotes.
@@ -20,3 +19,8 @@ git remote get-url origin | open-remote
 yadm remote -v | open-remote
 ```
 
+## Installation
+
+```bash
+brew install EmilyMalkieri/tap/open-remote
+```
