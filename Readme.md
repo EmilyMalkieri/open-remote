@@ -14,3 +14,9 @@ git remote -v | open-remote
 git remote get-url origin | open-remote
 ```
 
+`open-remote` also works with programs that wrap git:
+
+```bash
+yadm remote -v | open-remote
+```
+
